@@ -1,0 +1,219 @@
+
+*{
+  box-sizing: border-box;
+}
+html{
+
+}
+section{
+	float: left;
+}
+header{
+  clear: both;
+	background-color: #414345;
+  height: 55px;
+}
+header nav{
+  float: left;
+	margin-top: 10px;
+	width: 15%;
+}
+header nav li{
+	float: left;
+	margin-left: 5%;
+}
+header nav li a{
+	text-decoration: none;
+	color: white;
+}
+header img{
+  height: 34px;
+  float: left;
+  margin-left: 34%;
+  margin-top: 10px;
+}
+header button{
+  float: left;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+
+.grit, .volunteer{
+
+	width: 100%;
+
+}
+.grit{
+	background-color: #414345;
+	text-align: center;
+  padding-bottom: 30px;
+}
+.grit h2, .grit p, .grit a{
+	color: white;
+}
+.grit h2{
+	padding-top: 50px;
+}
+.grit p{
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.why{
+
+	width: 100%;
+
+	text-align: center;
+	color: #414345;
+}
+.why h3{
+	padding-top: 30px;
+}
+.why p{
+	width: 40%;
+	margin-left: 30%;
+	padding-top: 10px;
+}
+.visitTheGym{
+
+	width: 100%;
+
+	color: #414345;
+}
+.blueSquare{
+
+	width: 35%;
+
+	margin: 75px 0 0 10%;
+	text-align: center;
+	margin-bottom: 75px;
+}
+.blueSquare section{
+	height: 150px;
+	width: 100%;
+
+	float: left;
+	background: #414345;
+	margin-bottom: 25px;
+}
+.blueSquare p{
+	padding-top: 10px;
+}
+.blueSquare button{
+	margin-top: 10px;
+}
+.volunteer{
+	text-align: center;
+	color: #414345;
+  padding-bottom: 30px;
+}
+.volunteer p{
+	width: 40%;
+	margin-left: 30%;
+}
+.volunteer h2{
+	padding-top: 50px;
+}
+.volunteer p{
+	padding-top: 10px;
+}
+.volunteer button{
+	margin-top: 10px;
+}
+footer{
+
+	width: 100%;
+
+	clear: both;
+	background: black;
+}
+.leftfoot{
+
+	width: 17%;
+
+	float: left;
+	color: white;
+}
+.leftfoot ul{
+width: 100%;
+float: left;
+display: block;
+}
+.leftfoot li{
+	float: left;
+	padding-left: 10%;
+}
+.leftfoot p{
+	width: 100%;
+	display: block;
+	padding-left: 10%;
+}
+.rightfoot{
+
+	width: 20%;
+
+	float: left;
+	margin-left: 63%;
+	color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+.blueSquare{
+		width: 100%;
+    margin-left: 0%;
+	}
+  header button{
+    float: left;
+margin-left: 20%;
+margin-top: 10px;
+  }
+  header nav{
+    display: none;
+  }
+  .volunteer{
+    display: none;
+  }
+  .leftfoot ul:nth-of-type(2n), .leftfoot ul:nth-of-type(3n){
+    display: none;
+  }
+  .rightfoot ul{
+    display: none;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+	.blueSquare{
+			width: 100%;
+      margin-left: 0%;
+		}
+    header button{
+      float: left;
+      margin-left: 33%;
+      margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 2000px){
+  header img{
+    height: 34px;
+    float: left;
+    margin-left: 33%;
+    margin-top: 10px;
+  }
+  header button{
+    float: left;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  header nav{
+    float: left;
+margin-top: 10px;
+width: 15%;
+  }
+
+}
